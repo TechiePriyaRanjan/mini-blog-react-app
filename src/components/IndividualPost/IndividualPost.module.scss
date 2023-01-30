@@ -1,0 +1,11 @@
+$box-shadow: 6px 8px 16px #2a2a4266;
+
+.card {
+  &__wrapper {
+    border-radius: 10px;
+    border: 1px solid gray;
+    min-height: 200px;
+    max-width: 200px;
+    box-shadow: $box-shadow;
+  }
+}
